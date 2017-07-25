@@ -12,9 +12,12 @@ Button Text: #F2F1E8
 Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343*/
-/*html{
-  margin-right: 50px;
-  margin-left: 50px;*/
+
+
+/*-- -- -- -- -- -- -- -- HOME PAGE -- -- -- -- -- -- -- -- -- --*/
+/*-- -- -- -- -- -- -- -- HOME PAGE -- -- -- -- -- -- -- -- -- --*/
+/*-- -- -- -- -- -- -- -- HOME PAGE -- -- -- -- -- -- -- -- -- --*/
+
 
 .wrapper{
   display: flex;
@@ -74,19 +77,19 @@ font-weight: 100;
 nav.main_nav a:hover{
     color:#F2F1E8;
     text-align: center;
-
   }
+nav.main_nav a:active{
+      color:red;
+      text-align: center;
+    }
+
+
 
 #logo{
-  justify-content: flex-start;
-  width: auto;
-  /*justify-content: flex-start;*/
+  width: 41px;
   margin: 13px 0px 13px 22px;
-
-  /*margin-left: 20px;*/
-  /*margin-right: 400px;*/
   max-height: 50px;
-  /*margin: auto;*/
+
 }
 body{
   background-color: #F2F1E8;
@@ -191,6 +194,225 @@ section .pics {
     background-size:cover;
     background-position: center;
 }
+/*-- -- -- -- -- -- -- -- ABOUT PAGE -- -- -- -- -- -- -- -- -- --*/
+/*-- -- -- -- -- -- -- -- ABOUT PAGE -- -- -- -- -- -- -- -- -- --*/
+/*-- -- -- -- -- -- -- -- ABOUT PAGE -- -- -- -- -- -- -- -- -- --*/
+.aboutclass{
+  position: relative;
+  top: 70px;
+  text-align: left;
+  font-family: 'Merriweather', serif;
+  line-height: 2.1em;
+  font-weight: 200;
+  font-size: 1.1em;
+
+}
+.communityofartists{
+  margin-left: 14%;
+  margin-right: 14%;
+  text-align: left;
+  line-height: 2.1em;
+  font-weight: 200;
+  font-size: 1.1em;
+}
+#abouttitle{
+  text-align: center;
+  padding-top: 0.8em;
+  margin-top: 0;
+  font-size: 3.8em;
+  font-weight: 400;
+}
+.communityofartists p{
+
+  /*padding: 10px;*/
+  /*line-height: 2.1em;
+  font-weight: 400;
+  font-size: 1.1em;*/
+}
+.communityofartists img{
+ margin:0 20px 20px 0;
+  width: 150px;
+  float: left;
+}
+
+#quote{
+    padding-left: 40px;
+    font-weight: 200;
+    border-left: 1.3px solid rgba(0, 0, 0, 0.3);
+}
+.communityofartists h2{
+  font-weight: 200;
+
+
+}
+
+.midpic h2{
+  font-size: 4em;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  position: relative;
+  top: 126px;
+}
+#middlepic{
+  background-image: url(images/background-3.jpg);
+  -webkit-filter: blur(10px);
+  background-position: 50% 26%;
+  background-size: 100%;
+  height: 300px;
+  width: 100%;
+  margin-top: -100px;
+margin-bottom: 41px
+}
+
+.facilities{
+margin-left: 16%;
+margin-right: 16%;
+}
+.facilities h2{
+ font-weight: 200;
+}
+.fuckingihopeso {
+  display: flex;
+  flex-direction: row;
+}
+.fuckingihopeso p{
+  width: 70%;
+}
+.fuckinghopesoright{
+  margin: 0 0 3% 3%;
+  font-size: 0.6em;
+  line-height: 1.9em;
+  width: 20%;
+  text-align: center;
+}
+
+.fuckinghopesoright p{
+  margin-left: 12%;
+}
+#facilities {
+  /*width: 71%;
+  flex: 0 0 60%;*/
+}
+
+#facilitiespic{
+  width: 100%
+}
+/*#facilitiespic{
+  width:13%;
+
+}*/
+table {
+  border-collapse: collapse;
+
+}
+.table {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  margin: 0 15% 5% 15%;
+
+
+}
+.table h2{
+  margin:0;
+}
+.table th{
+  text-align: center;
+  margin-bottom: 5%;
+  border:1px solid black;
+  border-spacing: 0px 0px;
+}
+.table td{
+  padding:10px;
+  border:1px solid black;
+  border-spacing: 0px 0px;
+  margin: 0;
+}
+.table tbody tr:nth-child(odd){
+  background-color: #F2EADC;
+}
+
+
+
+
+
+
+
+
+
+/*-- -- -- -- -- -- --  NewsLetter PAGE --  -- -- -- -- -- -- -- --*/
+/*-- -- -- -- -- -- --  NewsLetter PAGE --  -- -- -- -- -- -- -- --*/
+/*-- -- -- -- -- -- --  NewsLetter PAGE --  -- -- -- -- -- -- -- --*/
+
+
+
+#NewsLetter{
+  background-image: url(images/background-2.jpg);
+  background-size:110%;
+  background-position: 49% -25%;
+  margin-top: -30px;
+  height: 600px;
+  text-align: center;
+}
+#NewsLetter div{
+  /*display: flex;*/
+  align-items: center;
+  /*flex-direction: column;*/
+}
+.submissionform{
+  background-color: white;
+  height: 375px;
+  margin-left: 26%;
+  margin-right: 26%;
+  margin-top: -21px;
+  position: relative;
+  top: 120px;
+
+}
+
+.submissionform p{
+
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+.submissionform h2 {
+  padding-top: 6%;
+  font-size: 2em;
+  font-weight: 100;
+}
+
+.submissionform h3 {
+  font-size: 1.4em;
+  font-weight: 200;
+}
+
+#submitbutton{
+  display: flex;
+  justify-content: center;
+  width: 13%;
+  color: #F1F1E8;
+  background-color: #968772;
+  font-size: 1.1em;
+  margin-top: 2%;
+  padding: 3.1%;
+
+}
+
+.NL_Inputs{
+  padding-top: 3%;
+  display: flex;
+/* justify-content: center; */
+  flex-direction: column;
+}
+.NL_Inputs input{
+  font-size: 1.1em;
+  color: rgba(0, 0, 0, 0.6);
+  width: 90%;
+  border: none;
+  border-bottom: 1.5px solid #968772;
+}
+
 
 #footer{
   display: block;
