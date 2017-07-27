@@ -75,11 +75,11 @@ font-weight: 100;
 }
 
 nav.main_nav a:hover{
-    color:#F2F1E8;
+    color:#CD5D67;
     text-align: center;
   }
 nav.main_nav a:active{
-      color:red;
+      color:#968772;
       text-align: center;
     }
 
@@ -208,40 +208,42 @@ section .pics {
 
 }
 .communityofartists{
+  margin-top: 10px;
   margin-left: 14%;
   margin-right: 14%;
   text-align: left;
   line-height: 2.1em;
   font-weight: 200;
-  font-size: 1.1em;
+  font-size: 1.4em;
 }
 #abouttitle{
   text-align: center;
-  padding-top: 0.8em;
-  margin-top: 0;
+  padding-top: 1.2em;
+  margin-top: -10px;
+  margin-bottom: 123px;
   font-size: 3.8em;
   font-weight: 400;
 }
 .communityofartists p{
-
-  /*padding: 10px;*/
+  font-weight: 300;
+  /*margin-top: 20px;*/
   /*line-height: 2.1em;
-  font-weight: 400;
+
   font-size: 1.1em;*/
 }
 .communityofartists img{
  margin:0 20px 20px 0;
-  width: 150px;
+  width: 234.2px;
   float: left;
 }
 
 #quote{
     padding-left: 40px;
-    font-weight: 200;
+    font-weight: 100;
     border-left: 1.3px solid rgba(0, 0, 0, 0.3);
 }
 .communityofartists h2{
-  font-weight: 200;
+  font-weight: 300;
 
 
 }
@@ -256,7 +258,7 @@ section .pics {
 }
 #middlepic{
   background-image: url(images/background-3.jpg);
-  -webkit-filter: blur(10px);
+
   background-position: 50% 26%;
   background-size: 100%;
   height: 300px;
@@ -266,20 +268,38 @@ margin-bottom: 41px
 }
 
 .facilities{
-margin-left: 16%;
-margin-right: 16%;
+margin-left: 15%;
+margin-right: 15%;
+font-weight: 300;
 }
 .facilities h2{
- font-weight: 200;
+ font-weight: 300;
 }
-.fuckingihopeso {
+#inlineink {
+  text-decoration: none;
+  color: #968772;
+  }
+
+#inlineink a:hover{
+  color: #967343;
+}
+
+.facpara {
   display: flex;
   flex-direction: row;
+  font-weight: 300;
+  font-size: 1.3em;
+  line-height: 2em;
+
+  font-weight: 300;
 }
-.fuckingihopeso p{
-  width: 70%;
+#faceparafonting{
+  flex: 0, 0, 60%;
 }
-.fuckinghopesoright{
+.facpara p{
+  width: 75%;
+}
+.facpara_right{
   margin: 0 0 3% 3%;
   font-size: 0.6em;
   line-height: 1.9em;
@@ -287,8 +307,10 @@ margin-right: 16%;
   text-align: center;
 }
 
-.fuckinghopesoright p{
-  margin-left: 12%;
+.facpara_right p{
+  margin-left: 0;
+  font-size: 1.4em;
+  width: 111%
 }
 #facilities {
   /*width: 71%;
@@ -322,8 +344,10 @@ table {
   margin-bottom: 5%;
   border:1px solid black;
   border-spacing: 0px 0px;
+  font-size: 1.3em;
 }
 .table td{
+  font-size: 1.3em;
   padding:10px;
   border:1px solid black;
   border-spacing: 0px 0px;
@@ -352,7 +376,7 @@ table {
   background-size:110%;
   background-position: 49% -25%;
   margin-top: -30px;
-  height: 600px;
+  height: 670px;
   text-align: center;
 }
 #NewsLetter div{
